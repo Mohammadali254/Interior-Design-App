@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">Interior Designs</string>
+    <string name="bedroom_1">Bedroom 1</string>
+    <string name="tip_1">Serene and Elegant</string>
+    <string name="description_1">This bedroom embraces a minimalist palette with soft whites and natural wood. The understated elegance of the bed frame pairs beautifully with airy curtains, creating a calm retreat.</string>
+
+    <string name="bedroom_2">Bedroom 2</string>
+    <string name="tip_2">Cozy Retreat</string>
+    <string name="description_2">With plush bedding and warm lighting, this bedroom radiates coziness. Soft, neutral tones set a relaxing atmosphere for a peaceful night.</string>
+
+    <string name="bedroom_3">Bedroom 3</string>
+    <string name="tip_3">Modern Luxe</string>
+    <string name="description_3">This room combines rich, dark accents with gold finishes, creating a luxurious space that balances sophistication with comfort.</string>
+
+    <string name="bedroom_4">Bedroom 4</string>
+    <string name="tip_4">Rustic Warmth</string>
+    <string name="description_4">Natural wood finishes and layered textiles bring a warm, rustic charm to this bedroom, ideal for a welcoming feel.</string>
+
+    <string name="bedroom_5">Bedroom 5</string>
+    <string name="tip_5">Bohemian Chic</string>
+    <string name="description_5">Layered rugs, vibrant colors, and eclectic decor give this bedroom a fun, bohemian vibe that’s full of character.</string>
+
+    <string name="bedroom_6">Bedroom 6</string>
+    <string name="tip_6">Minimalist Comfort</string>
+    <string name="description_6">This space focuses on simplicity, featuring a low platform bed and sleek decor, creating an uncluttered and relaxing bedroom.</string>
+
+    <string name="kitchen_1">Kitchen 1</string>
+    <string name="tip_7">Sleek and Functional</string>
+    <string name="description_7">The white cabinetry, combined with stainless steel finishes and sleek countertops, creates a clean, modern kitchen.</string>
+
+    <string name="kitchen_2">Kitchen 2</string>
+    <string name="tip_8">Rustic Charm</string>
+    <string name="description_8">Exposed brick and warm wood accents give this kitchen a cozy, farmhouse appeal that feels welcoming.</string>
+
+    <string name="kitchen_3">Kitchen 3</string>
+    <string name="tip_9">Bright and Open</string>
+    <string name="description_9">Large windows flood the kitchen with natural light, enhancing its airy, open layout.</string>
+
+    <string name="kitchen_4">Kitchen 4</string>
+    <string name="tip_10">Urban Industrial</string>
+    <string name="description_10">Dark cabinets, metal accents, and reclaimed wood give this kitchen a trendy, industrial look.</string>
+
+    <string name="kitchen_5">Kitchen 5</string>
+    <string name="tip_11">Scandinavian Simplicity</string>
+    <string name="description_11">Light woods and clean lines lend a bright, uncluttered feel to this Scandinavian-inspired kitchen.</string>
+
+    <string name="kitchen_6">Kitchen 6</string>
+    <string name="tip_12">Modern Minimalism</string>
+    <string name="description_12">A monochromatic palette and hidden storage create a minimalist kitchen that’s both stylish and functional.</string>
+
+    <string name="living_room_1">Living Room 1</string>
+    <string name="tip_13">Bright and Airy</string>
+    <string name="description_13">Neutral tones and large windows keep this living room light and inviting, perfect for relaxation.</string>
+
+    <string name="living_room_2">Living Room 2</string>
+    <string name="tip_14">Urban Chic</string>
+    <string name="description_14">Industrial shelving and bold, dark accents create a sleek, urban aesthetic that’s also comfortable.</string>
+
+    <string name="living_room_3">Living Room 3</string>
+    <string name="tip_15">Traditional Comfort</string>
+    <string name="description_15">Soft couches and warm lighting make this living room feel cozy and family-friendly.</string>
+
+    <string name="living_room_4">Living Room 4</string>
+    <string name="tip_16">Eclectic Elegance</string>
+    <string name="description_16">A mix of textures and colorful decor add personality to this living room, giving it a sophisticated yet fun feel.</string>
+
+    <string name="living_room_5">Living Room 5</string>
+    <string name="tip_17">Vintage Glamour</string>
+    <string name="description_17">Velvet furniture and gold details bring a touch of vintage glamour to this living room for a luxurious vibe.</string>
+
+    <string name="living_room_6">Living Room 6</string>
+    <string name="tip_18">Nature-Inspired</string>
+    <string name="description_18">Indoor plants and natural materials give this living room a refreshing, nature-inspired look.</string>
+
+    <string name="bathroom_1">Bathroom 1</string>
+    <string name="tip_19">Spa-Like Oasis</string>
+    <string name="description_19">Neutral colors and soft lighting create a spa-like atmosphere in this bathroom, perfect for relaxation.</string>
+
+    <string name="bathroom_2">Bathroom 2</string>
+    <string name="tip_20">Modern Minimalist</string>
+    <string name="description_20">Clean lines and a neutral palette make this bathroom feel spacious and modern.</string>
+
+    <string name="bathroom_3">Bathroom 3</string>
+    <string name="tip_21">Cozy Vintage</string>
+    <string name="description_21">Vintage-inspired fixtures and warm lighting add a touch of charm to this cozy bathroom.</string>
+
+    <string name="bathroom_4">Bathroom 4</string>
+    <string name="tip_22">Elegant Marble</string>
+    <string name="description_22">Marble surfaces and gold accents give this bathroom a luxurious and timeless look.</string>
+
+    <string name="bathroom_5">Bathroom 5</string>
+    <string name="tip_23">Beachy Vibes</string>
+    <string name="description_23">Soft blues and sandy tones bring a relaxing, beach-inspired atmosphere to this bathroom.</string>
+
+    <string name="bathroom_6">Bathroom 6</string>
+    <string name="tip_24">Nature Retreat</string>
+    <string name="description_24">Wooden accents and stone finishes create a natural, calming environment reminiscent of a retreat.</string>
+
+    <string name="dining_room_1">Dining Room 1</string>
+    <string name="tip_25">Elegant Dining</string>
+    <string name="description_25">A statement chandelier and soft color palette bring sophistication to this dining room.</string>
+
+    <string name="dining_room_2">Dining Room 2</string>
+    <string name="tip_26">Family-Friendly Style</string>
+    <string name="description_26">Sturdy furniture and warm lighting create a welcoming dining room perfect for gatherings.</string>
+
+    <string name="dining_room_3">Dining Room 3</string>
+    <string name="tip_27">Mid-Century Modern</string>
+    <string name="description_27">Clean lines, iconic furniture, and wood finishes give this dining room a mid-century modern charm.</string>
+
+    <string name="dining_room_4">Dining Room 4</string>
+    <string name="tip_28">Industrial Edge</string>
+    <string name="description_28">Exposed brick and metal accents add an edgy, industrial vibe to this dining space.</string>
+
+    <string name="dining_room_5">Dining Room 5</string>
+    <string name="tip_29">Bright and Airy</string>
+    <string name="description_29">A light color palette and natural lighting make this dining room feel open and spacious.</string>
+
+    <string name="dining_room_6">Dining Room 6</string>
+    <string name="tip_30">Art Deco Inspiration</string>
+    <string name="description_30">Bold patterns and metallic finishes create an Art Deco-inspired dining room for a unique, elegant look.</string>
+
+
+</resources>
