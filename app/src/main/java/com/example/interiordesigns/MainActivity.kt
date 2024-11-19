@@ -5,8 +5,11 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import androidx.compose.animation.animateContentSize
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.clickable
+import androidx.compose.foundation.interaction.MutableInteractionSource
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -29,6 +32,10 @@ import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Surface
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.mutableStateOf
+import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -105,10 +112,20 @@ fun InteriorDesignsCard(
     items : Interior,
     modifier: Modifier = Modifier
 ){
+    var expanded by remember { mutableStateOf(false) }
     Card(
         elevation = CardDefaults.cardElevation(40.dp),
         shape = MaterialTheme.shapes.medium,
-        modifier = modifier.padding(dimensionResource(id = R.dimen.large)),
+        modifier = modifier.padding(dimensionResource(id = R.dimen.large))
+            .animateContentSize()
+            .height(if (expanded) 400.dp else 200.dp)
+            .fillMaxWidth()
+            .clickable(
+                interactionSource = remember { androidx.compose.foundation.interaction.MutableInteractionSource() },
+                indication = null
+            ){
+                expanded = !expanded
+            },
         border = BorderStroke(1.dp, Color(0xFF99FFCC))
     ){
         Column(modifier = Modifier
